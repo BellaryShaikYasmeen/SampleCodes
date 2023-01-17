@@ -4,10 +4,14 @@
 
 
 fun main()
-{
-    var elvis:String?=null
+{/*
+    val elvis:String?=null
     if(elvis!=null)
         elvis.length
     else
-        println("Null")
+        println("Null")*/
+    val name:String?= null   //null
+    val name1= name?.length ?: -1
+    println(name1)
+
 }
